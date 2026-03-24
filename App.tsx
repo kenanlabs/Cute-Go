@@ -2611,10 +2611,7 @@ const App: React.FC = () => {
                 onClose={() => setShowAboutModal(false)}
                 checkingUpdate={checkingUpdate}
                 updateMsg={updateMsg}
-                newVersionFound={newVersionFound}
-                downloadUrl={downloadUrl}
                 onCheckUpdate={handleCheckUpdate}
-                vibrate={vibrate}
             />
 
             {/* Tsumego Result Modal */}
